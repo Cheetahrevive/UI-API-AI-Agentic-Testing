@@ -1,4 +1,4 @@
-# UI-API-AI-Agentic-Testing
+
 # UI‑API‑AI‑Agentic‑Testing Framework
 
 A modern, enterprise‑grade Playwright + API + AI automation framework designed for
