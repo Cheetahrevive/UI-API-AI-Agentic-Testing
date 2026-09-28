@@ -1,0 +1,21 @@
+{
+  "name": "ui-api-ai-agentic-testing",
+  "version": "1.0.0",
+  "description": "Playwright + API + AI agentic testing framework",
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "ai:generate": "tsx aiTestGenerator.ts",
+    "ai:heal": "tsx aiLocatorHealer.ts",
+    "ai:explore": "tsx ragEngine.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "openai": "^4.0.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
